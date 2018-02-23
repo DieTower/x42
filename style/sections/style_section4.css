@@ -1,0 +1,218 @@
+.section4 {
+    grid-column:1/2;
+    grid-row:5/6;
+    
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+.section4Container {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.section4Container p:nth-child(1) {
+    font-family:"Source Sans Pro";
+    font-weight:400;
+    font-size:36px;
+    color:#4c4c51;
+    
+    margin-bottom:19px;
+    text-align:center;
+    
+    transition-property:all;
+    transition-duration:0.2s;
+}
+
+.section4Container p:nth-child(2) {
+    width:820px;
+    
+    opacity:0.9;
+    font-family:"Source Sans Pro";
+    font-weight:400;
+    font-size:22px;
+    color:#88939e;
+    
+    margin-bottom:44px;
+    text-align:center;
+    
+    transition-property:all;
+    transition-duration:0.2s;
+}
+
+.section4Form {
+    width:474px;
+    height:118px;
+    
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    
+    transition-property:all;
+    transition-duration:0.2s;
+}
+
+.selectTheCity {
+    width:100%;
+    height:59px;
+    
+    padding:0px 39px 0px 41px;
+    
+    border:2px solid #dbdbdb;
+    border-bottom:0px;
+    
+    opacity:0.9;
+    font-style:"Source Sans Pro";
+    font-weight:400;
+    font-size:22px;
+    color:#88939e;
+    
+    border-top-left-radius:30px;
+    border-top-right-radius:30px;
+}
+
+.selectTheCity:focus {
+    outline-style:none;
+}
+
+select {
+    -webkit-appearance:none;
+    background-image:url("../../img/arrows.png");
+    background-repeat:no-repeat;
+    background-position:93% center;
+}
+
+.section4Button {
+    width:100%;
+    height:59px;
+    
+    opacity:0.9;
+    font-style:"Source Sans Pro";
+    font-weight:400;
+    font-size:22px;
+    color:#ffffff;
+    
+    background-color:#fd6e74;
+    border:none;
+    
+    cursor:pointer;
+    
+    transition-property:all;
+    transition-duration:0.2s;
+    
+    border-bottom-left-radius:30px;
+    border-bottom-right-radius:30px;
+}
+
+
+@media (max-width:870px) {
+    
+    .section4Container p:nth-child(1) {
+        font-size:26px;
+        margin-bottom:19px;
+    }
+
+    .section4Container p:nth-child(2) {
+        width:710px;
+        font-size:19px;
+        margin-bottom:30px;
+    }
+
+    .section4Form {
+        width:434px;
+        height:108px;
+    }
+    
+}
+
+@media (max-width:750px) {
+    
+    .section4Container p:nth-child(1) {
+        font-size:20px;
+        margin-bottom:13px;
+    }
+
+    .section4Container p:nth-child(2) {
+        width:590px;
+        font-size:13px;
+        margin-bottom:20px;
+    }
+
+    .section4Form {
+        width:334px;
+        height:78px;
+    }
+    
+    .selectTheCity {
+        font-size:16px;
+    }
+    
+    .section4Button {
+        font-size:16px;
+    }
+    
+}
+
+@media (max-width:620px) {
+    
+    .section4Container p:nth-child(1) {
+        font-size:18px;
+        margin-bottom:13px;
+    }
+
+    .section4Container p:nth-child(2) {
+        width:490px;
+        font-size:13px;
+        margin-bottom:18px;
+    }
+    
+    .section4Form {
+        width:284px;
+        height:68px;
+    }
+    
+    .selectTheCity {
+        font-size:13px;
+    }
+    
+    .section4Button {
+        font-size:13px;
+    }
+    
+}
+
+@media (max-width:520px) {
+    
+    .section4Container p:nth-child(1) {
+        font-size:18px;
+        margin-bottom:13px;
+    }
+
+    .section4Container p:nth-child(2) {
+        width:400px;
+        font-size:10px;
+        margin-bottom:18px;
+    }
+    
+    .section4Form {
+        width:224px;
+        height:68px;
+    }
+    
+    .selectTheCity {
+        font-size:11px;
+    }
+    
+    .section4Button {
+        font-size:11px;
+    }
+    
+}
+
+
+
+

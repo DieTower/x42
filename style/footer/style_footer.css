@@ -1,0 +1,250 @@
+footer {
+    grid-column:1/2;
+    grid-row:6/7;
+    
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:flex-start;
+}
+
+.footerContainer {
+    height:353px;
+    
+    display:grid;
+    grid-template-columns:1197px;
+    grid-template-rows:auto 74px;
+    
+    transition-property:all;
+    transition-duration:0.2s;
+}
+
+.footerBox1 {
+    grid-column:1/2;
+    grid-row:1/2;
+    
+    display:grid;
+    grid-template-columns:25% 25% 25% 25%;
+    grid-template-rows:100%;
+    
+    transition-property:all;
+    transition-duration:0.2s;
+}
+
+.languagesBox {
+    grid-column:1/2;
+    grid-row:1/2;
+    
+    display:flex;
+    flex-direction:column;
+}
+
+.languagesBox select {
+    height:60px;
+    border-radius:2px;
+    border:2px solid #dbdbdb;
+    
+    padding-left:26px;
+    
+    font-family:"Source Sans Pro";
+    font-weight:400;
+    font-size:22px;
+    color:#75808c;
+    
+    transition-property:all;
+    transition-duration:0.2s;
+}
+
+.languagesBox select:nth-child(1) {
+    margin-top:10px;
+    margin-bottom:20px;
+}
+
+.footerUl1 {
+    grid-column:2/3;
+    grid-row:1/2;
+}
+
+.footerUl2 {
+    grid-column:3/4;
+    grid-row:1/2;
+}
+
+.footerUl3 {
+    grid-column:4/5;
+    grid-row:1/2;
+}
+
+.footerUl {
+    display:flex;
+    justify-content:center;
+}
+
+.footerUl ul {
+    height:218px;
+}
+
+.footerUl ul li {
+    opacity:0.9;
+    font-family:"Source Sans Pro";
+    font-size:22px;
+    
+    display:flex;
+    align-items:center;
+}
+
+.footerUl ul li:first-child {
+    font-weight:700;
+    height:28px;
+    margin-bottom:10px;
+}
+
+.footerUl ul li:first-child a {
+    color:#fb5c68;
+}
+
+.footerUl ul li:not(:first-child) {
+    font-weight:400;
+    margin-bottom:5px;
+}
+
+.footerUl ul li:not(:first-child) a {
+    color:#88939e;
+}
+
+.footerBox2 {
+    grid-column:1/2;
+    grid-row:2/3;
+    
+    border-top:2px solid #e8e8e8;
+    
+    display:grid;
+    grid-template-columns:50% 50%;
+    grid-template-rows:100%;
+}
+
+.box2Part1 {
+    grid-column:1/2;
+    grid-row:1/2;
+    
+    display:flex;
+    justify-content:flex-start;
+    align-items:flex-end;
+}
+
+.airbnbSecondLogo {
+    width:113px;
+    height:35px;
+    
+    background-image:url("../../img/logo2.png");
+    background-position:cover;
+    background-size:cover;
+}
+
+.box2Part2 {
+    grid-column:2/3;
+    grid-row:1/2;
+    
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    align-items:flex-end;
+    
+    transition-property:all;
+    transition-duration:0.2s;
+}
+
+.box2Part2 ul {
+    display:flex;
+    flex-direction:row;
+}
+
+.box2Part2 ul li:not(:first-child) {
+    margin-left:30px;
+    
+    transition-property:all;
+    transition-duration:0.2s;
+}
+
+.box2Part2 ul li a {
+    opacity:0.9;
+    font-family:"Source Sans Pro";
+    font-weight:400;
+    font-size:22px;
+    color:#88939e;
+    line-height:30px;
+    
+    transition-property:all;
+    transition-duration:0.2s;
+}
+
+
+@media (max-width:1300px) {
+    
+    .footerContainer {
+        grid-template-columns:997px;
+    }
+    
+}
+
+@media (max-width:1060px) {
+    
+    .footerContainer {
+        grid-template-columns:787px;
+    }
+    
+}
+
+@media (max-width:870px) {
+    
+    .footerContainer {
+        grid-template-columns:647px;
+    }
+    
+    .footerUl ul li {
+        font-size:18px;
+    }
+    
+}
+
+@media (max-width:720px) {
+    
+    .footerContainer {
+        grid-template-columns:537px;
+    }
+    
+    .footerUl ul li {
+        font-size:14px;
+    }
+    
+    .box2Part2 ul li:not(:first-child) {
+        margin-left:20px;
+    }
+
+    .box2Part2 ul li a {
+        font-size:18px;
+    }
+    
+    .languagesBox select {
+        height:40px;
+        padding-left:13px;
+        font-size:18px;
+    }
+    
+}
+
+@media (max-width:620px) {
+    
+    .footerContainer {
+        grid-template-columns:447px;
+    }
+    
+    .footerUl ul li {
+        font-size:12px;
+    }
+    
+    
+    
+}
+
+

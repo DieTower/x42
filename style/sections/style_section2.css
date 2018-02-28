@@ -21,6 +21,7 @@
     width:35px;
     height:2px;
     
+    text-align:center;
     background-color:#dbdbdb;
     border-radius:1px;
     
@@ -44,6 +45,7 @@
 .section2Box span:nth-child(1) {
     height:60px;
     
+    text-align:center;
     font-family:"Merriweather";
     font-weight:800;
     font-size:48px;
@@ -58,6 +60,7 @@
 .section2Box span:nth-child(2) {
     height:28px;
     
+    text-align:center;
     font-family:"Source Sans Pro";
     font-weight:400;
     font-size:22px;
@@ -130,5 +133,27 @@
     .section2Box span:nth-child(2) {
         height:8px;
         font-size:10px;
+    }
+    
+    .section2 ul {
+        width:100px;
+        height:auto;
+        
+        margin-bottom:10%;
+        
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:space-between;
+    }
+    
+    .section2Box span:nth-child(2) {
+        width:100px;
+    }
+}
+
+@media (max-width:450px) {
+    .section2 ul {
+        margin-bottom:15%;
     }
 }

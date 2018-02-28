@@ -47,7 +47,6 @@ header {
     
     z-index:1;
     
-    background-color:green;
     background-image:url("../img/hero-image.png");
     background-repeat:no-repeat;
     background-position:center;
@@ -253,7 +252,7 @@ nav {
 
 
 
-@media (max-width:1100PX) {
+@media (max-width:1100px) {
     .menuContainer ul li a {
         font-size:18px;
     }
@@ -264,7 +263,7 @@ nav {
     }
 
     .titleBox {
-        width:605px;
+        width:100%;
         height:187px;
 
         margin-top:170px;
@@ -293,7 +292,7 @@ nav {
 
 }
 
-@media (max-width:640PX) {
+@media (max-width:640px) {
     .menuContainer ul li a {
         font-size:14px;
     }
@@ -332,7 +331,132 @@ nav {
     }
     
     .container {
-        grid-template-rows:1030px 419px 234px 571px 390px 394px;
+        grid-template-rows:1030px 419px 534px 571px 390px 394px;
+    }
+    
+}
+
+@media (max-width:500px) {
+    .titleBox {
+        width:100%;
+        height:147px;
+
+        margin-top:170px;
+    }
+
+    .title a {
+        font-size:27px;
+    }
+
+    .subTitle {
+        width:311px;
+    }
+
+    .subTitle a {
+        font-size:14px;
+    }
+}
+
+@media (max-width:450px) {
+    .navContainer {
+        display:grid;
+        grid-template-rows:100%;
+        grid-template-columns:20% 80%;
+    }
+    
+    .container {
+        grid-template-rows:1030px 420px 344px 571px 390px 504px;
+    }
+}
+
+@media (max-width:420px) {
+    .titleBox {
+        width:100%;
+        height:127px;
+
+        margin-top:170px;
+    }
+
+    .title a {
+        font-size:22px;
+    }
+
+    .subTitle {
+        width:311px;
+    }
+
+    .subTitle a {
+        font-size:10px;
+    }
+    
+    .createButton {
+        width:207px;
+        height:35px;
+    }
+
+    .createButton span {
+        font-size:15px;
+    }
+    
+    .menuContainer ul {
+        height:100%;
+
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:center;
+    }
+    
+    .container {
+        grid-template-rows:1030px 530px 334px 571px 390px 504px;
+    }
+    
+}
+
+@media (max-width:370px) {
+    .container {
+        grid-template-rows:1030px 330px 334px 571px 390px 504px;
+    }
+}
+
+@media (max-width:350px) {
+    .titleBox {
+        width:100%;
+        height:117px;
+
+        margin-top:170px;
+    }
+
+    .title a {
+        font-size:18px;
+    }
+
+    .subTitle {
+        width:231px;
+    }
+
+    .subTitle a {
+        font-size:10px;
+    }
+    
+    .createButton {
+        width:207px;
+        height:35px;
+        
+        margin-top:7px;
+    }
+
+    .createButton span {
+        font-size:15px;
+    }
+    
+    .menuContainer ul {
+        height:100%;
+
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:center;
     }
     
 }

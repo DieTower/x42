@@ -213,6 +213,58 @@ select {
     
 }
 
+@media (max-width:450px) {
+    .section4Container p:nth-child(1) {
+        font-size:18px;
+        margin-bottom:10px;
+    }
+
+    .section4Container p:nth-child(2) {
+        width:90%;
+        font-size:9px;
+        margin-bottom:12px;
+    }
+    
+    .section4Form {
+        width:204px;
+        height:58px;
+    }
+    
+    .selectTheCity {
+        font-size:11px;
+    }
+    
+    .section4Button {
+        font-size:11px;
+    }
+}
+
+@media (max-width:400px) {
+    .section4Container p:nth-child(1) {
+        font-size:16px;
+        margin-bottom:10px;
+    }
+
+    .section4Container p:nth-child(2) {
+        width:90%;
+        font-size:9px;
+        margin-bottom:12px;
+    }
+    
+    .section4Form {
+        width:204px;
+        height:38px;
+    }
+    
+    .selectTheCity {
+        font-size:9px;
+    }
+    
+    .section4Button {
+        font-size:9px;
+    }
+}
+
 
 
 
